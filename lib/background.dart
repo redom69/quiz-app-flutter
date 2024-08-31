@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Background extends StatelessWidget {
   const Background(this.startQuiz, {super.key});
@@ -24,9 +25,9 @@ class Background extends StatelessWidget {
         const SizedBox(
           height: 80,
         ),
-        const Text('Learn Flutter the fun way!',
-            style: TextStyle(
-                color: Color.fromARGB(255, 247, 242, 255), fontSize: 30)),
+        Text('Learn Flutter the fun way!',
+            style: GoogleFonts.lato(
+                color: const Color.fromARGB(255, 247, 242, 255), fontSize: 30)),
         const SizedBox(
           height: 30,
         ),
